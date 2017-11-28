@@ -1,6 +1,6 @@
 ## Web Pack Example
 
-Web Pack = module bundles, pega os arquivos e junta em um unico, os browsers ainda nao entendem o conceito de import e export, por isso precisamos do web pack para fazer o trabalho de compilar e juntar os arquivos, em um novo arquivo de saida.
+webpack, é um empacotador de código para projetos web. O que ele se propõe a fazer de diferente é focar em módulos da sua aplicação. Nem sempre ter todo e qualquer JavaScript/CSS do seu projeto num único arquivo é bom, por isso o webpack tem a ideia de code splitting, onde você modulariza partes reaproveitáveis do seu projeto, facilitando o desenvolvimento independente, por exemplo, ter uma equipe trabalhando em um módulo X e outra num módulo Y, mas ambos de um mesmo projeto.
 
 Comandos
 - instalacao: npm install -g webpack
